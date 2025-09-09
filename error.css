@@ -1,0 +1,194 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: font;
+    src: url(image/font/LEMONMILK-Bold.otf);
+
+}
+@font-face {
+    font-family: font2;
+    src: url(image/font/LEMONMILK-Regular.otf);
+
+}
+body{
+    overflow-x: hidden;
+    font-family: sans-serif;
+    background-color: black;
+}
+:root{
+   --color: #c4ef17;
+    --h1:100px;
+    --h2:51px;
+}
+/* ====nav start==== */
+nav{
+    height: 75px;
+    width: 100%;
+    background-color: black;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 65px;
+    position: fixed;
+    z-index: 95;
+    
+}
+.logo p{
+    font-family: font;
+    color: var(--color);
+    font-size: 35px;
+}
+.all-pages{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#l{
+    text-decoration: none;
+}
+.home{
+    font-size: 18px;
+    color: gainsboro;
+}
+#home{
+   text-decoration: none;
+}
+.home:hover{
+    color: var(--color);
+    transform: scale(1.1);
+    transition: 0.1s ease;
+    cursor: pointer;
+}
+.portfolio{
+    font-size: 18px;
+    color: gainsboro;
+}
+#portfolio{
+    font-size: 18px;
+    color: gainsboro;
+    text-decoration: none;
+}
+.portfolio:hover{
+      color: var(--color);
+          transform: scale(1.1);
+    transition: 0.1s ease;
+    cursor: pointer;
+}
+.cr{
+     font-size: 18px;
+      color: gainsboro;
+}
+#cr{
+     font-size: 18px;
+      color: gainsboro;
+      text-decoration: none;
+}
+.cr:hover{
+      color: var(--color);
+          transform: scale(1.1);
+    transition: 0.1s ease;
+    cursor: pointer;
+}
+.news{
+     font-size: 18px;
+    color: gainsboro;
+}
+#news{
+    text-decoration: none;
+}
+.news:hover{
+      color: var(--color);
+          transform: scale(1.1);
+     transition: 0.1s ease;
+    cursor: pointer;
+}
+.contact{
+     font-size: 18px;
+    color:var(--color);
+}
+#contact{
+   text-decoration: none;
+}
+.contact:hover{
+      color: var(--color);
+          transform: scale(1.1);
+     transition: 0.1s ease;
+    cursor: pointer;
+}
+.button{
+    display: flex;
+    /* gap: 45px; */
+    align-items: center;
+}
+.btn1{
+    height: 35px;
+    width: 105px;
+    background-color: black;
+    border:2px solid var(--color);
+    color: var(--color);
+display: block;
+align-items: center;
+justify-content: center;
+}
+#menu-bar{
+    display: none;
+    font-size: 35px;
+    color: gainsboro;
+}
+#menu-bar:hover{
+ color: #c4ef17;
+}
+.get{
+    text-decoration: none;
+    gap: 45px;
+}
+.h{
+    text-decoration: none;
+}
+/* =======nav end========= */
+
+.og{
+    height: 550px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+.hk1{
+    font-family: font;
+    font-size: 100px;
+    color: white;
+}
+span{
+    color: #c4ef17;
+}
+.hk2{
+    font-family: font;
+    font-size: var(--h2);
+    color: white;
+}
+.hk3{
+    font-family: font;
+    font-size: var(--n);
+    color: white;
+}
+.lo{
+    height: 45px;
+    width: 130px;
+    border-radius: 15px;
+    background-color:#c4ef17;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+

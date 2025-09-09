@@ -1,0 +1,648 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+@font-face {
+    font-family: font;
+    src: url(FONT/swingly_lours/);
+
+}
+:root{
+   --color: #c4ef17;
+    --h1:100px;
+    --h2:51px;
+}
+/* ====nav start==== */
+nav{
+    height: 75px;
+    width: 100%;
+    background-color: black;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 65px;
+    position: fixed;
+    z-index: 95;
+    
+}
+.logo p{
+    font-family: font;
+    color: var(--color);
+    font-size: 35px;
+}
+.all-pages{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#l{
+    text-decoration: none;
+}
+.home{
+    font-size: 18px;
+    color: gainsboro;
+}
+#home{
+   text-decoration: none;
+}
+.home:hover{
+    color: var(--color);
+    transform: scale(1.1);
+    transition: 0.1s ease;
+    cursor: pointer;
+}
+.portfolio{
+    font-size: 18px;
+   color: #c4ef17;
+}
+#portfolio{
+    font-size: 18px;
+    color: gainsboro;
+    text-decoration: none;
+}
+.portfolio:hover{
+      color: var(--color);
+          transform: scale(1.1);
+     transition: 0.1s ease;
+    cursor: pointer;
+}
+.cr{
+     font-size: 18px;
+        color: gainsboro;
+}
+#cr{
+     font-size: 18px;
+      color: gainsboro;
+      text-decoration: none;
+}
+.cr:hover{
+      color: var(--color);
+          transform: scale(1.1);
+    transition: 0.1s ease;
+    cursor: pointer;
+}
+.news{
+     font-size: 18px;
+    color: gainsboro;
+}
+#news{
+    text-decoration: none;
+}
+.news:hover{
+      color: var(--color);
+          transform: scale(1.1);
+   transition: 0.1s ease;
+    cursor: pointer;
+}
+.contact{
+     font-size: 18px;
+ color: gainsboro;
+}
+#contact{
+   text-decoration: none;
+}
+.contact:hover{
+      color: var(--color);
+          transform: scale(1.1);
+      transition: 0.1s ease;
+    cursor: pointer;
+}
+.button{
+    display: flex;
+    /* gap: 45px; */
+    align-items: center;
+}
+.btn1{
+    height: 35px;
+    width: 105px;
+    background-color: black;
+    border:2px solid var(--color);
+    color: var(--color);
+display: block;
+align-items: center;
+justify-content: center;
+}
+#menu-bar{
+    display: none;
+    font-size: 35px;
+    color: gainsboro;
+}
+#menu-bar:hover{
+ color: #c4ef17;
+}
+.get{
+    text-decoration: none;
+    gap: 45px;
+}
+.h{
+    text-decoration: none;
+}
+/* =======nav end========= */
+/* ========landing page===== */
+.landing-page{
+    height: 450px;
+    width: auto;
+background-image: url(img/Complexity\ Simplified\ Contact\ Us\ Banner.jpg);
+background-position: center;
+background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.l-headline{
+    font-family: font;
+    font-size: var(--h2);
+    color: white;
+}
+.para{
+    display: flex;
+    gap: 15px;
+}
+.p-home{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: rgb(152, 152, 152);
+    text-decoration: none;
+}
+.p-home1{
+    text-decoration: none;
+}
+.slas{
+    font-size: 20px;
+font-weight: bold;
+    color: gray;
+}
+.con-home{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
+}
+/* =========landing page end======== */
+/* =======bm strat======== */
+.bm{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+.bm-h2{
+    font-family: font;
+    font-size:68px;
+}
+/* =======bm end======== */
+/* ===white-photo==== */
+.white-photo{
+    height: 750px;
+    width: 100%;
+    background-image: url(img/sm-01.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+}
+/* ======white photo end=== */
+/* =======roal-project start====== */
+.roal-project{
+    height: 250px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 85px;
+    
+}
+.rp1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    justify-content: center;
+}
+.rp2{
+    display: flex;
+    flex-direction: column;
+   align-items: start;
+    justify-content: center;
+    gap: 20px;
+}
+.rp3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    justify-content: center;
+}
+.rp-h3{
+    font-size: 35px;
+    font-family: font;
+}
+.rp-p{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: gray;
+}
+
+/* ======roal -project end======= */
+/* =====about project start======== */
+.about{
+    height: 950px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    /* justify-content: center; */
+    padding: 0 85px;
+    border: none;
+    gap: 25px;
+}
+.f{
+      display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+
+}
+.cir2{
+        color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 15px;
+}
+.cir1{
+    height: 15px;
+    width: 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--color);
+}
+.cir2 p{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: white;
+}
+.text-ser{
+    display: flex;
+    flex-direction: column;
+  align-items: start;
+  line-height: 55px;
+  gap: 15px;
+  
+}
+.sec-h1{
+  font-family: font;
+    font-size: var(--h2);
+    color: white;
+    letter-spacing: 2px;
+}
+.sec-h2{
+    font-family: font;
+    color: gray;
+      font-size:45PX;
+      letter-spacing: 2px;
+}
+.sec-p{
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    color: gray;
+}
+.about-pic{
+    height: 650px;
+    width: 100%;
+    background-image: url(img/project_dt.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+}
+/* =====about project end======== */
+/* =====over view start===== */
+.overview{
+    height: 700px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0 299px 0 85px;
+}
+.overview-leftside{
+    display: flex;
+    flex-direction: column;
+    gap: 54px;
+    
+}
+.overview-rightside{
+    display: flex;
+    flex-direction: column;
+    gap: 54px;
+    
+}
+.over-h2{
+    font-family: font;
+    font-size: var(--h2);
+   
+}
+.over-p{
+    font-family: sans-serif;
+    font-size: 25px;
+}
+.ff1{
+    display: flex;
+    align-items: start;
+    color: gray;
+    gap: 15px;
+}
+.f-f{
+height: 10px;
+width: 10px;
+border-radius: 50%;
+background-color: gray;
+}
+.f1-p{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.r1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.r1-h3{
+    font-family: font;
+    font-size: 55px;
+}
+.r1-p{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: gray;
+}
+
+
+/* ======over view end======= */
+/* ========poster seris start===== */
+.poster{
+    height: 1000px;
+    width:100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0 85px;
+}
+.f-poster{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: start;
+}
+.f-h3{
+    font-family: font;
+    font-size: 35px;
+}
+.f-pic{
+    height: 850px;
+    width: 600px;
+    background-image: url(img/project_dt01.jpg);
+    background-size: cover;
+}
+.f-pic2{
+    height: 850px;
+    width: 600px;
+    background-image: url(img/project_dt02.jpg);
+    background-size: cover;
+    
+}
+/* =======poster seris end======= */
+
+/* ==========footer start========= */
+.footer{
+    height: 430px;
+    width: 100%;
+    background-color: #000;
+    border: 0.3px solid rgba(135, 135, 135, 0.293);
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0 85px;
+}
+.footer1{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+  color: white;
+  gap: 25px;
+}
+.f-logo{
+    font-family: font;
+    font-size: 35px;
+}
+.f-p{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: rgb(143, 142, 142);
+    line-height: 20px;
+}
+.f-i{
+    display: flex;
+    gap: 25px;
+}
+#fb{
+ color: white;
+    font-size: 25px;
+}
+#fb:hover{
+ color: var(--color);
+ margin-top: -5px;
+ transition: 0.2s ease;
+   cursor: pointer;
+}
+#insta1{
+ color: white;
+    font-size: 25px;
+}
+#insta1:hover{
+ color: var(--color);
+ margin-top: -5px;
+ transition: 0.2s ease;
+   cursor: pointer;
+}
+#twitter1{
+ color: white;
+    font-size: 25px;
+}
+#twitter1:hover{
+ color: var(--color);
+ margin-top: -5px;
+ transition: 0.2s ease;
+   cursor: pointer;
+}
+#link1{
+ color: white;
+    font-size: 25px;
+}
+#link1:hover{
+ color: var(--color);
+ margin-top: -5px;
+ transition: 0.2s ease;
+   cursor: pointer;
+}
+.footer2{
+    width: 8%;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+.footer2-hed{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+.f2-1{
+    font-family: sans-serif;
+    font-size: 16px;
+color: rgb(162, 162, 162);
+}
+.f2-1:hover{
+color: #c4ef17;
+cursor: pointer;
+}
+.f2-2{
+    font-family: sans-serif;
+    font-size: 16px;
+color: rgb(162, 162, 162);
+}
+.f2-2:hover{
+color: #c4ef17;
+cursor: pointer;
+}
+.f2-3{
+    font-family: sans-serif;
+    font-size: 16px;
+color: rgb(162, 162, 162);
+}
+.f2-3:hover{
+color: #c4ef17;
+cursor: pointer;
+}
+.f2-4{
+    font-family: sans-serif;
+    font-size: 16px;
+color: rgb(162, 162, 162);
+}
+.f2-4:hover{
+color: #c4ef17;
+cursor: pointer;
+}
+
+.footer3{
+    width: 8%;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+.footer3-hed{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+.f3-1{
+    font-family: sans-serif;
+    font-size: 16px;
+color: rgb(162, 162, 162);
+}
+.f3-1:hover{
+color: #c4ef17;
+cursor: pointer;
+}
+.f3-2{
+    font-family: sans-serif;
+    font-size: 16px;
+color: rgb(162, 162, 162);
+}
+.f3-2:hover{
+color: #c4ef17;
+cursor: pointer;
+}
+.f3-3{
+    font-family: sans-serif;
+    font-size: 16px;
+color: rgb(162, 162, 162);
+}
+.f3-3:hover{
+color: #c4ef17;
+cursor: pointer;
+}
+.f3-4{
+    font-family: sans-serif;
+    font-size: 16px;
+color: rgb(162, 162, 162);
+}
+.f3-4:hover{
+color: #c4ef17;
+cursor: pointer;
+}
+.footer4{
+      width: 19%;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+.footer4-hed{
+     font-family: sans-serif;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+.f4-1{
+       font-family: sans-serif;
+    font-size: 14px;
+color: rgb(162, 162, 162);
+}
+.contenr{
+    height: 35px;
+    width: 280px;
+    background-color: rgba(255, 255, 255, 0);
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-bottom: 1px solid gray;
+margin-top: 35px;
+}
+.con1{
+    height: 35px;
+    width: 230px;
+background-color: transparent;
+outline: none;
+border: none;
+color: white;
+}
+#send{
+    font-size: 25px;
+color: #c4ef17;
+}
+
+/* ========footer end===== */
